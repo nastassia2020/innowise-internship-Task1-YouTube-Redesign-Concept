@@ -1,3 +1,6 @@
 {
-  "buildCommand": ""
+  "buildCommand": "",
+  "public": {
+    "directory": "public"
+  }
 }
