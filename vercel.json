@@ -1,6 +1,4 @@
 {
   "buildCommand": "",
-  "public": {
-    "directory": "public"
-  }
+  "public": true
 }
