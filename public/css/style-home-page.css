@@ -19,21 +19,19 @@ p {
     margin-inline-end: 0px;
 }
 .header {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .header-burger{
-    position: absolute;
-    right: 1868px;
-    top: 6px;
-    left: 32px;
+    width: 20px;
+    height: 17px;
 }
 .header-logo {
-    position: absolute;
-    left: 80px;
-    top: 1px;
+    width: 116px;
+    height: 25px;
 }
 .header-search {
-    position: absolute;
     background: #EBEBEB;
     mix-blend-mode: normal;
     opacity: 0.3;
@@ -41,18 +39,13 @@ p {
     width: 830px;
     height: 44px;
     opacity: 30%;
-    left: 255px;
-    top: -7px;
 }
 .header-search-input {
-    position: absolute;
     outline: none;
     border: none;
     font-size: 16px;
     line-height: 20px;
     background: #EBEBEB;
-    top: 12px;
-    left: 22px;
 }
 .notifications{
     position: absolute;
