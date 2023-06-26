@@ -33,23 +33,12 @@
         </div>
         <img class="header-userpic" src="./img/home-page/40x40/Userpic.png" />
       </div>
-    </header>
-    <div class="mini-header">
-      <div class="mini-header-logo">
-        <img src="./img/home-page/logo/logo.png" />
-        <img src="./img/home-page/logo/logo-name.png" />
-      </div>
-      <img
-        class="mini-header-search"
-        src="./img/home-page/icons/search.png"
-        alt=""
-      />
       <div class="menu-dots">
         <img src="./img/channel-page/Oval.png" alt="" />
         <img src="./img/channel-page/Oval.png" alt="" />
         <img src="./img/channel-page/Oval.png" alt="" />
       </div>
-    </div>
+    </header>
     <div class="content">
       <main class="main">
         <div class="main-video-container">
@@ -59,8 +48,8 @@
             alt=""
           />
           <div class="main-video-time">
-            <p class="start-time">1:34</p>
-            <p class="end-time">19:00</p>
+            <p class="time">1:34</p>
+            <p class="time">19:00</p>
           </div>
           <img
             class="progress"
@@ -69,9 +58,21 @@
           />
           <div class="main-video-btns">
             <div class="main-video-btns-left">
-              <img src="./img/video-player-page/icons/Pause.png" alt="" />
-              <img src="./img/video-player-page/icons/Next.png" alt="" />
-              <img src="./img/video-player-page/icons/Volume.png" alt="" />
+              <img
+                class="main-video-btns-left-pause"
+                src="./img/video-player-page/icons/Pause.png"
+                alt=""
+              />
+              <img
+                class="main-video-btns-left-next"
+                src="./img/video-player-page/icons/Next.png"
+                alt=""
+              />
+              <img
+                class="main-video-btns-left-volume"
+                src="./img/video-player-page/icons/Volume.png"
+                alt=""
+              />
             </div>
 
             <div class="main-video-btns-right">
@@ -95,17 +96,16 @@
                 src="./img/video-player-page/icons/More.png"
                 alt=""
               />
+              <img
+                class="right-arrow"
+                src="./img/channel-page/right-arrow.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
-        <img
-          class="right-arrow"
-          src="./img/channel-page/right-arrow.png"
-          alt=""
-        />
         <p class="grey-line1"></p>
         <p class="grey-line2"></p>
-        <p class="subscribers">245K subscribed</p>
         <div class="main-description">
           <div class="main-description-description">
             <img
@@ -118,6 +118,7 @@
               <p class="main-description-text-publish">
                 Published on 14 Jun 2019
               </p>
+              <p class="subscribers">245K subscribed</p>
               <p class="main-description-text">
                 A successful marketing plan relies heavily on the pulling-power
                 of advertising copy. Writing result-oriented ad copy is
@@ -130,8 +131,9 @@
               <p class="main-description-text-show-more">Show more</p>
             </div>
           </div>
-          <button class="main-user-subscribe-btn">Subscribe 2.3m</button>
-          <p class="main-user-subscribe-btn-mini">Subscribe</p>
+          <button class="main-user-subscribe-btn">
+            Subscribe <span class="subscribe-span">2.3m</span>
+          </button>
         </div>
       </main>
       <aside class="aside-videos-collection">
@@ -140,7 +142,7 @@
           <p class="autoplay">Autoplay</p>
           <p class="autoplay-img"></p>
         </div>
-        <div>
+        <div class="aside-video">
           <div class="video-wrapper">
             <img src="./img/video-player-page/ice-cream.png" />
             <p class="video-length">8:00</p>
@@ -151,7 +153,7 @@
             <p>Dollie Blair</p>
           </div>
         </div>
-        <div>
+        <div class="aside-video">
           <div class="video-wrapper">
             <img src="./img/video-player-page/barry.png" />
             <p class="video-length">8:00</p>
@@ -162,7 +164,7 @@
             <p>Dollie Blair</p>
           </div>
         </div>
-        <div>
+        <div class="aside-video no-display">
           <div class="video-wrapper">
             <img src="./img/video-player-page/pine.png" />
             <p class="video-length">8:00</p>
@@ -173,7 +175,7 @@
             <p>Dollie Blair</p>
           </div>
         </div>
-        <img src="./img/video-player-page/blue.png" alt="" />
+        <img class="no-display" src="./img/video-player-page/blue.png" alt="" />
       </aside>
     </div>
     <footer class="footer">
