@@ -621,7 +621,9 @@ h2{
         bottom: 520px;
     }
 }
-
+.footer{
+    display: none;
+}
 
 @media screen and (max-width: 320px){
     body{
