@@ -522,13 +522,9 @@ p {
         padding: 0;
     }
     .main-img{
-        position: absolute;
         width: 320px;
         height: 100px;
-        top: 60px;
-        bottom: 864px;
-        left: 0;
-        right: 0;
+        margin-top: 60px;
     }
     .main-user-mini {
         position: absolute;
@@ -537,19 +533,15 @@ p {
         justify-content: space-between;
         top: 125px;
         left: 16px;
-        /* bottom: 729px; */
         right: 146px;
         z-index: 1;
     }
     .main-user-mini-nav{
         display: flex;
         flex-direction: row;
-        position: absolute;
-        top: 329px;
-        left: 12px;
-        /* right: 16px; */
-        bottom: 669px;
-        width: 280px;
+        margin-top: 165px;
+        margin-left: 17px;
+        width: 265px;
     }
 
     .main-user-mini-nav a{
