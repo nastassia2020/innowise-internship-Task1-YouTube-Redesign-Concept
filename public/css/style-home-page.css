@@ -22,7 +22,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1920px;
+    /* width: 1920px; */
     @media screen and (max-width: 320px){
         height: 35px;
         width: 320px;
@@ -121,6 +121,7 @@ p {
     width: 265px;
     margin-top: 17px;
     margin-left: 445px;
+    gap: 25px;
 }
 
 .display-none{
@@ -140,8 +141,8 @@ p {
     margin-top: 44px;
     margin-bottom: 60px;
     justify-content: space-between;
-    height: 117px;
     margin-left: 32px;
+    gap: 25px;
 }
 .aside-main-part-element {
     display: flex;
@@ -196,15 +197,21 @@ p {
     margin-left: 35px;
     margin-top: 105px;
 }
+
+.page-content{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
 .main {
-    position: absolute;
-    left: 255px;
-    top: 100px;
+    margin-top: 30px;
+    margin-left: 55px;
     width: 1665px;
 }
 .main-content {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     width: 1516px;
 }
 .main-content button{
@@ -263,6 +270,7 @@ p {
     margin-top: 13px;
     overflow:  hidden;
     margin-bottom: 35px; 
+    overflow-x: scroll;
 }
 .main-content-grid-item {
     margin-right: 40px;
@@ -360,6 +368,10 @@ p {
 }
 .footer{
     display: none;
+}
+
+@media screen and (min-width: 1920px){
+ 
 }
 
 @media screen and (max-width: 320px) {

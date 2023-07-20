@@ -210,6 +210,8 @@ p {
     margin-top: 25px;
 }
 .main {
+    margin-left: 56px;
+    width: 1665px;
 }
 .main-second-row{
     display: flex;
@@ -417,6 +419,7 @@ p {
     margin-top: 13px;
     overflow:  hidden;
     margin-bottom: 35px; 
+    overflow-x: scroll;
 }
 .main-content-grid-item {
     margin-right: 40px;
